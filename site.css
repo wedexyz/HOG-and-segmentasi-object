@@ -1,0 +1,23 @@
+body {
+	margin:20px 20px 20px;
+	text-align: left;
+	
+}
+
+.wrapper {
+	display: inline-block;
+	position: relative;
+	width: 640px;
+	height: 480px;
+}
+
+
+
+
+canvas {
+	width: 320px;
+	height: 240px;	
+	-ms-interpolation-mode: nearest-neighbor;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+}
